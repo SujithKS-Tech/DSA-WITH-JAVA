@@ -1,5 +1,5 @@
 public class BruteForceUniquePairs {
-     public static void main(String[] args) {
+    public static void main(String[] args) {
       int i,j,n=5;
       int arr[]={1,2,3,4,5};
       for(i=0;i<=n-1;i++){
