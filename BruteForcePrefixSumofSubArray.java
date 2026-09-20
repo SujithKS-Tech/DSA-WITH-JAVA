@@ -2,6 +2,8 @@ public class BruteForcePrefixSumofSubArray{
     public static void main(String[] args) {
         int i,j,n;
         int arr[]={10,20,30,40,50,60};
+        int count=0;
+        int target=30;
         n=arr.length;
         for(i=0;i<=n-1;i++){
         for(j=i;j<=n-1;j++){
@@ -11,6 +13,10 @@ public class BruteForcePrefixSumofSubArray{
             System.out.print(arr[k]+" ");
         }
         System.out.println("sum:" + sum);
+        if(sum==target){
+            count ++;
+
+        }
             System.out.println();
     }
 }
